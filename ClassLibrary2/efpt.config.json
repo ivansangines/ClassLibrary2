@@ -1,0 +1,30 @@
+﻿{
+   "ContextClassName": "TestContext",
+   "DefaultDacpacSchema": null,
+   "DoNotCombineNamespace": false,
+   "IdReplace": false,
+   "IncludeConnectionString": false,
+   "OutputPath": "Model",
+   "ProjectRootNamespace": "ClassLibrary2",
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "public.enrollment"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "public.student"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "public.subject"
+      }
+   ],
+   "UseDatabaseNames": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false
+}
