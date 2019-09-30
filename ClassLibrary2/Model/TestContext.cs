@@ -24,6 +24,7 @@ namespace ClassLibrary2.Model
         {
             if (!optionsBuilder.IsConfigured)
             {
+                optionsBuilder.UseNpgsql("Host=localhost;Database=test;Username=postgres;Password=my_pw");
             }
         }
 
